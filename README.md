@@ -16,7 +16,7 @@ cd ai-api-integration
 
 2. Install required dependencies:
 
-pip install openai groq requests google-generativeai cohere
+pip install -r requirements.txt
 
 3. How to Obtain API Keys
 
@@ -30,7 +30,6 @@ Ollama does not require an API key (runs locally)
 
 For Windows (PowerShell):
 
-$env:OPENAI_API_KEY="your_api_key"
 $env:GROQ_API_KEY="your_api_key"
 $env:COHERE_API_KEY="your_api_key"
 $env:GOOGLE_API_KEY="your_api_key"
