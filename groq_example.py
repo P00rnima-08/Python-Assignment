@@ -14,7 +14,7 @@ def query_api(prompt):
             max_tokens=500,                                        #Limiting the response length
         )
         return chat_completion.choices[0].message.content          #Extracting the actual AI response text
-    except Exception as e:                                         #Error Handling
+    except Exception as e:                                         #Error Handling 
         return f"Error: {str(e)}"
 
 #Main function 

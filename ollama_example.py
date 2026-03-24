@@ -5,7 +5,7 @@ import os
 MODEL_NAME = "phi" 
 
 #Function to run Ollama locally
-def query_api(prompt):
+def query_api(prompt): 
     try:
         result = subprocess.run(
             ["ollama", "run", MODEL_NAME, prompt],
